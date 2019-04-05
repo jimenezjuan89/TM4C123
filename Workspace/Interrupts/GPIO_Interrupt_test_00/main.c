@@ -45,3 +45,8 @@ void GPIOF_init(void) {
 
 }
 
+void GPIOF_Handler(void) {
+    GPIOF_AHB->ICR |= (SW1 | SW2);
+    GPIOF_AHB->DATA ^= ledRed;
+}
+
