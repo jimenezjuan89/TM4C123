@@ -33,7 +33,7 @@ void ResetISR(void);
 static void NmiSR(void);
 static void FaultISR(void);
 static void IntDefaultHandler(void);
-void GPIOF_Handler(void);
+
 
 #ifndef HWREG
 #define HWREG(x) (*((volatile uint32_t *)(x)))
@@ -59,6 +59,7 @@ static uint32_t pui32Stack[128];
 //
 //*****************************************************************************
 // To be added by user
+void GPIOF_Handler(void);
 
 //*****************************************************************************
 //
