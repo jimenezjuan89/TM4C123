@@ -1,4 +1,4 @@
-main.o: ../main.c \
+PortSetup.o: ../PortSetup.c \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/TI_CMSIS/TM4C123GH6PM.h \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/ARM_CMSIS/core_cm4.h \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/ARM_CMSIS/cmsis_version.h \
@@ -6,7 +6,7 @@ main.o: ../main.c \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/ARM_CMSIS/cmsis_gcc.h \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/ARM_CMSIS/mpu_armv7.h \
  C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/TI_CMSIS/system_TM4C.h \
- ../IO.h ../PortSetup.h ../InterruptsHandler.h
+ ../IO.h
 
 C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/TI_CMSIS/TM4C123GH6PM.h:
 
@@ -23,7 +23,3 @@ C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C
 C:/Users/jimen/OneDrive/Documents/Workspace/CodeComposerStudio/gitWorkspace/TM4C123/CMSIS/TI_CMSIS/system_TM4C.h:
 
 ../IO.h:
-
-../PortSetup.h:
-
-../InterruptsHandler.h:
